@@ -1,0 +1,81 @@
+:root {
+  --bg: #0b0f1a;
+  --fg: #eaeaf0;
+  --accent: #4da3ff;
+  --muted: #9aa4bf;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+header {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: radial-gradient(circle at top, #11183a, #0b0f1a);
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  color: var(--muted);
+}
+
+.lang-switch button {
+  margin: 0.5rem;
+  background: none;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #1f2a44;
+}
+
+nav a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2.5rem 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--muted);
+  border-top: 1px solid #1f2a44;
+}
