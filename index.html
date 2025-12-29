@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thiago Domingues | Physics & Technology</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Thiago Domingues</h1>
+      <p id="subtitle">Physics • Data Science • Technology</p>
+
+      <div class="lang-switch">
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('pt')">PT</button>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#research" data-i18n="nav_research">Research</a>
+    <a href="#projects" data-i18n="nav_projects">Projects</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
+
+  <section id="about" class="container">
+    <h2 data-i18n="about_title">About Me</h2>
+    <p data-i18n="about_text">
+      I am a physicist working at the intersection of Bayesian inference,
+      high-energy nuclear physics, and modern computational methods.
+    </p>
+  </section>
+
+  <section id="research" class="container">
+    <h2 data-i18n="research_title">Research Interests</h2>
+    <ul>
+      <li data-i18n="r1">Bayesian inference and uncertainty quantification</li>
+      <li data-i18n="r2">Relativistic hydrodynamics and heavy-ion collisions</li>
+      <li data-i18n="r3">Emulators, surrogate models, and AI for physics</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="container">
+    <h2 data-i18n="projects_title">Projects</h2>
+    <p data-i18n="projects_text">
+      Selected research projects, open-source codes, and scientific visualizations.
+    </p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 data-i18n="contact_title">Contact</h2>
+    <p>
+      <a href="https://github.com/seuusuario" target="_blank">GitHub</a> •
+      <a href="#" target="_blank">Google Scholar</a> •
+      <a href="mailto:seuemail@email.com">Email</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Thiago Domingues</p>
+  </footer>
+
+  <script src="js/lang.js"></script>
+</body>
+</html>
